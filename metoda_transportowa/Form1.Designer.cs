@@ -29,6 +29,24 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            "D1",
+            "1700"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "D2",
+            "800"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            "D3",
+            "800"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            "O1",
+            "700"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            "O2",
+            "700"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            "O3",
+            "1000"}, -1);
             this.listView1 = new System.Windows.Forms.ListView();
             this.Dostawca = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Popyt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -46,6 +64,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.kosztyCalk = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // listView1
@@ -54,9 +74,13 @@
             this.Dostawca,
             this.Popyt});
             this.listView1.HideSelection = false;
+            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
             this.listView1.Location = new System.Drawing.Point(12, 12);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(240, 137);
+            this.listView1.Size = new System.Drawing.Size(201, 137);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -130,9 +154,13 @@
             this.columnHeader1,
             this.columnHeader2});
             this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(323, 12);
+            this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem4,
+            listViewItem5,
+            listViewItem6});
+            this.listView2.Location = new System.Drawing.Point(323, 10);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(200, 137);
+            this.listView2.Size = new System.Drawing.Size(212, 137);
             this.listView2.TabIndex = 5;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -184,11 +212,30 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "TRASA";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(607, 143);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(112, 85);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Generuj KosztCalkowity";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // kosztyCalk
+            // 
+            this.kosztyCalk.Location = new System.Drawing.Point(591, 290);
+            this.kosztyCalk.Name = "kosztyCalk";
+            this.kosztyCalk.Size = new System.Drawing.Size(138, 20);
+            this.kosztyCalk.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 425);
+            this.ClientSize = new System.Drawing.Size(768, 604);
+            this.Controls.Add(this.kosztyCalk);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -228,6 +275,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox kosztyCalk;
     }
 }
 

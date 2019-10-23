@@ -8,6 +8,7 @@ namespace metoda_transportowa
 {
     public class Row
     {
+        public int id;
         public string dostawca;
         public int popyt;
         public string odbiorca;
@@ -16,14 +17,15 @@ namespace metoda_transportowa
         public bool enabled;
         public int? result; 
 
-        public Row(string d, int pop, string o, int pod, int odl, bool ena)
+        public Row(int iD, string d, int pop, string o, int pod, bool ena)
         {
+            id = iD;
             dostawca = d;
             popyt = pop;
             odbiorca = o;
             podaż = pod;
-            odleglosc = odl;
             enabled = ena;
+            
         }
     }
 }
