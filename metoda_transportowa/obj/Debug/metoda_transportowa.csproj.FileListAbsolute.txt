@@ -1,0 +1,18 @@
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\bin\Debug\metoda_transportowa.exe.config
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\bin\Debug\metoda_transportowa.exe
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\bin\Debug\metoda_transportowa.pdb
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\obj\Debug\metoda_transportowa.csprojResolveAssemblyReference.cache
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\obj\Debug\metoda_transportowa.Form1.resources
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\obj\Debug\metoda_transportowa.Properties.Resources.resources
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\obj\Debug\metoda_transportowa.csproj.GenerateResource.Cache
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\obj\Debug\metoda_transportowa.exe
+\\krywan\redirecteduserfolders\pslonina\documents\visual studio 2015\Projects\metoda_transportowa\metoda_transportowa\obj\Debug\metoda_transportowa.pdb
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\bin\Debug\metoda_transportowa.exe.config
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\obj\Debug\metoda_transportowa.exe
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\obj\Debug\metoda_transportowa.pdb
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\bin\Debug\metoda_transportowa.exe
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\bin\Debug\metoda_transportowa.pdb
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\obj\Debug\metoda_transportowa.csprojResolveAssemblyReference.cache
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\obj\Debug\metoda_transportowa.Form1.resources
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\obj\Debug\metoda_transportowa.Properties.Resources.resources
+C:\Users\pslonina\Source\Repos\badaniaOperacyjne\metoda_transportowa\obj\Debug\metoda_transportowa.csproj.GenerateResource.Cache
