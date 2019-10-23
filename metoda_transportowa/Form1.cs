@@ -133,7 +133,11 @@ namespace metoda_transportowa
                     findRow.result = findRow.podaż;
                     findRow.podaż = 0;
                     
+
+
                     var toClear = tempListRow.Where(x => x.id != findRow.id && x.odbiorca == findRow.odbiorca).ToList();
+                    var toClear2 = tempListRow.Where(x => x.id != findRow.id && x.dostawca == findRow.dostawca).ToList();
+                    toClear2.ForEach(x => x.popyt = findRow.popyt);
                     toClear.ForEach(x => x.enabled = false);
                 }
                 else
@@ -143,10 +147,14 @@ namespace metoda_transportowa
                     findRow.popyt = 0;
 
                     var toClear = tempListRow.Where(x => x.id != findRow.id && x.dostawca == findRow.dostawca).ToList();
+                    var toClear2 = tempListRow.Where(x => x.id != findRow.id && x.odbiorca == findRow.odbiorca).ToList();
+                    toClear2.ForEach(x => x.podaż = findRow.podaż);
                     toClear.ForEach(x => x.enabled = false);
+
 
                 }
                 findRow.enabled = false;
+                tempListRow[tempListRow.IndexOf(findRow)] = findRow;
             }
 
             kosztyCalk.Text = CalculateKoszty(tempListRow).ToString();
